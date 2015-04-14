@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CE15E631AC91B19007AF576 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE15E621AC91B19007AF576 /* main.m */; };
+		6CE15E661AC91B19007AF576 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE15E651AC91B19007AF576 /* AppDelegate.m */; };
+		6CE15E691AC91B19007AF576 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE15E681AC91B19007AF576 /* ViewController.m */; };
+		6CE15E6C1AC91B19007AF576 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CE15E6A1AC91B19007AF576 /* Main.storyboard */; };
+		6CE15E6E1AC91B19007AF576 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CE15E6D1AC91B19007AF576 /* Images.xcassets */; };
+		6CE15E711AC91B19007AF576 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CE15E6F1AC91B19007AF576 /* LaunchScreen.xib */; };
+		6CE15E7D1AC91B19007AF576 /* LongPressVideoCaptureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE15E7C1AC91B19007AF576 /* LongPressVideoCaptureTests.m */; };
+		6CE15E911AC9229E007AF576 /* PBJGLProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE15E871AC9229E007AF576 /* PBJGLProgram.m */; };
+		6CE15E921AC9229E007AF576 /* PBJMediaWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE15E891AC9229E007AF576 /* PBJMediaWriter.m */; };
+		6CE15E931AC9229E007AF576 /* PBJVision.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE15E8B1AC9229E007AF576 /* PBJVision.m */; };
+		6CE15E941AC9229E007AF576 /* PBJVisionUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE15E8D1AC9229E007AF576 /* PBJVisionUtilities.m */; };
+		6CE15E951AC9229E007AF576 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 6CE15E8F1AC9229E007AF576 /* Shader.fsh */; };
+		6CE15E961AC9229E007AF576 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 6CE15E901AC9229E007AF576 /* Shader.vsh */; };
+		6CE15E991AC922FC007AF576 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE15E981AC922FC007AF576 /* AssetsLibrary.framework */; };
+		6CE15E9C1AC9236D007AF576 /* PBJStrobeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE15E9B1AC9236D007AF576 /* PBJStrobeView.m */; };
+		6CE15EA11AC926A2007AF576 /* capture_done@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CE15E9D1AC926A2007AF576 /* capture_done@2x.png */; };
+		6CE15EA21AC926A2007AF576 /* capture_rec_base@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CE15E9E1AC926A2007AF576 /* capture_rec_base@2x.png */; };
+		6CE15EA31AC926A2007AF576 /* capture_rec_blink@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CE15E9F1AC926A2007AF576 /* capture_rec_blink@2x.png */; };
+		6CE15EA41AC926A2007AF576 /* capture_rec_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CE15EA01AC926A2007AF576 /* capture_rec_off@2x.png */; };
+		6CE15EA71AC92A27007AF576 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CE15EA61AC92A27007AF576 /* camera.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CE15E771AC91B19007AF576 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CE15E551AC91B18007AF576 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CE15E5C1AC91B19007AF576;
+			remoteInfo = LongPressVideoCapture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6CE15E5D1AC91B19007AF576 /* LongPressVideoCapture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LongPressVideoCapture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CE15E611AC91B19007AF576 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CE15E621AC91B19007AF576 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6CE15E641AC91B19007AF576 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6CE15E651AC91B19007AF576 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6CE15E671AC91B19007AF576 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6CE15E681AC91B19007AF576 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6CE15E6B1AC91B19007AF576 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6CE15E6D1AC91B19007AF576 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6CE15E701AC91B19007AF576 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6CE15E761AC91B19007AF576 /* LongPressVideoCaptureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LongPressVideoCaptureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CE15E7B1AC91B19007AF576 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CE15E7C1AC91B19007AF576 /* LongPressVideoCaptureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LongPressVideoCaptureTests.m; sourceTree = "<group>"; };
+		6CE15E861AC9229E007AF576 /* PBJGLProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBJGLProgram.h; sourceTree = "<group>"; };
+		6CE15E871AC9229E007AF576 /* PBJGLProgram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBJGLProgram.m; sourceTree = "<group>"; };
+		6CE15E881AC9229E007AF576 /* PBJMediaWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBJMediaWriter.h; sourceTree = "<group>"; };
+		6CE15E891AC9229E007AF576 /* PBJMediaWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBJMediaWriter.m; sourceTree = "<group>"; };
+		6CE15E8A1AC9229E007AF576 /* PBJVision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBJVision.h; sourceTree = "<group>"; };
+		6CE15E8B1AC9229E007AF576 /* PBJVision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBJVision.m; sourceTree = "<group>"; };
+		6CE15E8C1AC9229E007AF576 /* PBJVisionUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBJVisionUtilities.h; sourceTree = "<group>"; };
+		6CE15E8D1AC9229E007AF576 /* PBJVisionUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBJVisionUtilities.m; sourceTree = "<group>"; };
+		6CE15E8F1AC9229E007AF576 /* Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.fsh; sourceTree = "<group>"; };
+		6CE15E901AC9229E007AF576 /* Shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.vsh; sourceTree = "<group>"; };
+		6CE15E981AC922FC007AF576 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		6CE15E9A1AC9236D007AF576 /* PBJStrobeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBJStrobeView.h; sourceTree = "<group>"; };
+		6CE15E9B1AC9236D007AF576 /* PBJStrobeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBJStrobeView.m; sourceTree = "<group>"; };
+		6CE15E9D1AC926A2007AF576 /* capture_done@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "capture_done@2x.png"; sourceTree = "<group>"; };
+		6CE15E9E1AC926A2007AF576 /* capture_rec_base@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "capture_rec_base@2x.png"; sourceTree = "<group>"; };
+		6CE15E9F1AC926A2007AF576 /* capture_rec_blink@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "capture_rec_blink@2x.png"; sourceTree = "<group>"; };
+		6CE15EA01AC926A2007AF576 /* capture_rec_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "capture_rec_off@2x.png"; sourceTree = "<group>"; };
+		6CE15EA61AC92A27007AF576 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CE15E5A1AC91B19007AF576 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE15E991AC922FC007AF576 /* AssetsLibrary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CE15E731AC91B19007AF576 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CE15E541AC91B18007AF576 = {
+			isa = PBXGroup;
+			children = (
+				6CE15E981AC922FC007AF576 /* AssetsLibrary.framework */,
+				6CE15E5F1AC91B19007AF576 /* LongPressVideoCapture */,
+				6CE15E791AC91B19007AF576 /* LongPressVideoCaptureTests */,
+				6CE15E5E1AC91B19007AF576 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CE15E5E1AC91B19007AF576 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CE15E5D1AC91B19007AF576 /* LongPressVideoCapture.app */,
+				6CE15E761AC91B19007AF576 /* LongPressVideoCaptureTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CE15E5F1AC91B19007AF576 /* LongPressVideoCapture */ = {
+			isa = PBXGroup;
+			children = (
+				6CE15E971AC922A3007AF576 /* VideoLibrary */,
+				6CE15E641AC91B19007AF576 /* AppDelegate.h */,
+				6CE15E651AC91B19007AF576 /* AppDelegate.m */,
+				6CE15E671AC91B19007AF576 /* ViewController.h */,
+				6CE15E681AC91B19007AF576 /* ViewController.m */,
+				6CE15E6A1AC91B19007AF576 /* Main.storyboard */,
+				6CE15E6D1AC91B19007AF576 /* Images.xcassets */,
+				6CE15E6F1AC91B19007AF576 /* LaunchScreen.xib */,
+				6CE15E601AC91B19007AF576 /* Supporting Files */,
+			);
+			path = LongPressVideoCapture;
+			sourceTree = "<group>";
+		};
+		6CE15E601AC91B19007AF576 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CE15E611AC91B19007AF576 /* Info.plist */,
+				6CE15E621AC91B19007AF576 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CE15E791AC91B19007AF576 /* LongPressVideoCaptureTests */ = {
+			isa = PBXGroup;
+			children = (
+				6CE15E7C1AC91B19007AF576 /* LongPressVideoCaptureTests.m */,
+				6CE15E7A1AC91B19007AF576 /* Supporting Files */,
+			);
+			path = LongPressVideoCaptureTests;
+			sourceTree = "<group>";
+		};
+		6CE15E7A1AC91B19007AF576 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CE15E7B1AC91B19007AF576 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CE15E8E1AC9229E007AF576 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				6CE15E8F1AC9229E007AF576 /* Shader.fsh */,
+				6CE15E901AC9229E007AF576 /* Shader.vsh */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		6CE15E971AC922A3007AF576 /* VideoLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				6CE15EA51AC926A7007AF576 /* Images */,
+				6CE15E861AC9229E007AF576 /* PBJGLProgram.h */,
+				6CE15E871AC9229E007AF576 /* PBJGLProgram.m */,
+				6CE15E881AC9229E007AF576 /* PBJMediaWriter.h */,
+				6CE15E891AC9229E007AF576 /* PBJMediaWriter.m */,
+				6CE15E8A1AC9229E007AF576 /* PBJVision.h */,
+				6CE15E8B1AC9229E007AF576 /* PBJVision.m */,
+				6CE15E8C1AC9229E007AF576 /* PBJVisionUtilities.h */,
+				6CE15E8D1AC9229E007AF576 /* PBJVisionUtilities.m */,
+				6CE15E9A1AC9236D007AF576 /* PBJStrobeView.h */,
+				6CE15E9B1AC9236D007AF576 /* PBJStrobeView.m */,
+				6CE15E8E1AC9229E007AF576 /* Shaders */,
+			);
+			name = VideoLibrary;
+			sourceTree = "<group>";
+		};
+		6CE15EA51AC926A7007AF576 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6CE15EA61AC92A27007AF576 /* camera.png */,
+				6CE15E9D1AC926A2007AF576 /* capture_done@2x.png */,
+				6CE15E9E1AC926A2007AF576 /* capture_rec_base@2x.png */,
+				6CE15E9F1AC926A2007AF576 /* capture_rec_blink@2x.png */,
+				6CE15EA01AC926A2007AF576 /* capture_rec_off@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CE15E5C1AC91B19007AF576 /* LongPressVideoCapture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CE15E801AC91B19007AF576 /* Build configuration list for PBXNativeTarget "LongPressVideoCapture" */;
+			buildPhases = (
+				6CE15E591AC91B19007AF576 /* Sources */,
+				6CE15E5A1AC91B19007AF576 /* Frameworks */,
+				6CE15E5B1AC91B19007AF576 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LongPressVideoCapture;
+			productName = LongPressVideoCapture;
+			productReference = 6CE15E5D1AC91B19007AF576 /* LongPressVideoCapture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6CE15E751AC91B19007AF576 /* LongPressVideoCaptureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CE15E831AC91B19007AF576 /* Build configuration list for PBXNativeTarget "LongPressVideoCaptureTests" */;
+			buildPhases = (
+				6CE15E721AC91B19007AF576 /* Sources */,
+				6CE15E731AC91B19007AF576 /* Frameworks */,
+				6CE15E741AC91B19007AF576 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CE15E781AC91B19007AF576 /* PBXTargetDependency */,
+			);
+			name = LongPressVideoCaptureTests;
+			productName = LongPressVideoCaptureTests;
+			productReference = 6CE15E761AC91B19007AF576 /* LongPressVideoCaptureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CE15E551AC91B18007AF576 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Shikhar Varshney";
+				TargetAttributes = {
+					6CE15E5C1AC91B19007AF576 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					6CE15E751AC91B19007AF576 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 6CE15E5C1AC91B19007AF576;
+					};
+				};
+			};
+			buildConfigurationList = 6CE15E581AC91B19007AF576 /* Build configuration list for PBXProject "LongPressVideoCapture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CE15E541AC91B18007AF576;
+			productRefGroup = 6CE15E5E1AC91B19007AF576 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CE15E5C1AC91B19007AF576 /* LongPressVideoCapture */,
+				6CE15E751AC91B19007AF576 /* LongPressVideoCaptureTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CE15E5B1AC91B19007AF576 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE15E951AC9229E007AF576 /* Shader.fsh in Resources */,
+				6CE15EA41AC926A2007AF576 /* capture_rec_off@2x.png in Resources */,
+				6CE15EA31AC926A2007AF576 /* capture_rec_blink@2x.png in Resources */,
+				6CE15E6C1AC91B19007AF576 /* Main.storyboard in Resources */,
+				6CE15EA71AC92A27007AF576 /* camera.png in Resources */,
+				6CE15E711AC91B19007AF576 /* LaunchScreen.xib in Resources */,
+				6CE15EA11AC926A2007AF576 /* capture_done@2x.png in Resources */,
+				6CE15EA21AC926A2007AF576 /* capture_rec_base@2x.png in Resources */,
+				6CE15E6E1AC91B19007AF576 /* Images.xcassets in Resources */,
+				6CE15E961AC9229E007AF576 /* Shader.vsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CE15E741AC91B19007AF576 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CE15E591AC91B19007AF576 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE15E9C1AC9236D007AF576 /* PBJStrobeView.m in Sources */,
+				6CE15E911AC9229E007AF576 /* PBJGLProgram.m in Sources */,
+				6CE15E691AC91B19007AF576 /* ViewController.m in Sources */,
+				6CE15E661AC91B19007AF576 /* AppDelegate.m in Sources */,
+				6CE15E921AC9229E007AF576 /* PBJMediaWriter.m in Sources */,
+				6CE15E931AC9229E007AF576 /* PBJVision.m in Sources */,
+				6CE15E631AC91B19007AF576 /* main.m in Sources */,
+				6CE15E941AC9229E007AF576 /* PBJVisionUtilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CE15E721AC91B19007AF576 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE15E7D1AC91B19007AF576 /* LongPressVideoCaptureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CE15E781AC91B19007AF576 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CE15E5C1AC91B19007AF576 /* LongPressVideoCapture */;
+			targetProxy = 6CE15E771AC91B19007AF576 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6CE15E6A1AC91B19007AF576 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CE15E6B1AC91B19007AF576 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6CE15E6F1AC91B19007AF576 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CE15E701AC91B19007AF576 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CE15E7E1AC91B19007AF576 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6CE15E7F1AC91B19007AF576 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CE15E811AC91B19007AF576 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LongPressVideoCapture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6CE15E821AC91B19007AF576 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LongPressVideoCapture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6CE15E841AC91B19007AF576 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LongPressVideoCaptureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LongPressVideoCapture.app/LongPressVideoCapture";
+			};
+			name = Debug;
+		};
+		6CE15E851AC91B19007AF576 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LongPressVideoCaptureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LongPressVideoCapture.app/LongPressVideoCapture";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CE15E581AC91B19007AF576 /* Build configuration list for PBXProject "LongPressVideoCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CE15E7E1AC91B19007AF576 /* Debug */,
+				6CE15E7F1AC91B19007AF576 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CE15E801AC91B19007AF576 /* Build configuration list for PBXNativeTarget "LongPressVideoCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CE15E811AC91B19007AF576 /* Debug */,
+				6CE15E821AC91B19007AF576 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CE15E831AC91B19007AF576 /* Build configuration list for PBXNativeTarget "LongPressVideoCaptureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CE15E841AC91B19007AF576 /* Debug */,
+				6CE15E851AC91B19007AF576 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CE15E551AC91B18007AF576 /* Project object */;
+}
